@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:
+            border-box;
+}
+body {
+    font: 13px Helvetica, Arial;
+}
+form {
+    text-align: center;
+    background-color: grey;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+form input {
+    font-family: "Roboto", sans-serif;
+    background: rgb(255, 255, 255);
+    border: 0;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+    width: 50%;
+}
+
+form button {
+    text-align: center;
+    width: 80px;
+    background: #87b2ff;
+    border: none;
+    padding: 10px;
+}
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#messages li {
+    padding: 5px 10px;
+}
+#messages li:nth-child(odd) {
+    background: #eee;
+}

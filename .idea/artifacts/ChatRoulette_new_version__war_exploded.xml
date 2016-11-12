@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ChatRoulette(new version):war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatRoulette_new_version__war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ChatRoulette(new version)/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ChatRoulette(new version)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
